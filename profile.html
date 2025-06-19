@@ -2,10 +2,105 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="keyword" content = "alekhya cse student">
+    <meta name ="description"content = "This is a profile page of Alekhya.">
+    <meta name = "author" content = "Alekhya">
+    <meta http-equiv ="Refresh" content = "10" url="http://Localhost:8080/profile1">
+    <meta name = "robots" content = "Index,no-follow">
+    <link rel ="stylesheet" href = "./assets/css/profile.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>hello world</h1>
+    <header>
+        <h1>Alekhya Profile</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Personal Information</h2>
+            <img src="./Assets/images/WhatsApp Image 2025-01-02 at 18.47.01_55170259.jpg" width="100px" height = "100px" alt="">
+            <p><strong>Name : </strong>Alekhya</p>
+            <p><strong>Branch  : </strong>CSE</p>
+            <p><strong>College : </strong>Malla Reddy University</p>
+        </section>
+        <section>
+          <h2>Academic Performance</h2>
+          <table>
+            <thead>
+                <tr>
+                    <th>Semester</th>
+                    <th>Subjects</th>
+                    <th>SGPA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1st</td>
+                    <td>Math,UI,Python,English</td>
+                    <td>8.0</td>
+                </tr>
+                <tr>
+                    <td>2nd</td>
+                    <td>java,UIWD,BEEE</td>
+                    <td>7.9</td>
+                </tr>
+                <tr>
+                    <td>3rd</td>
+                    <td>DBMS,computer network</td>
+                    <td>8.9</td>
+                </tr>
+            </tbody>
+          </table>  
+        </section>
+        <section>
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Operating System : </strong>window & Linux</li>
+                <li><strong>language : </strong>java,c++,python</li>
+                <li><strong>Front End : </strong>HTML,CSS,Bootsrap</li>
+                <li><strong>Front end framework :</strong>Angualar & React</li>
+                <li><strong>Server framework : </strong>Spring,springboot</li>
+                <li><strong>DBMS : </strong>Oracle, Mysql,MongoDb</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Hobbies and Interest</h2>
+            <ul>
+                <li>Coding Challenges(Leetcode,Hacker Rank)</li>
+                <li>UI&UX Design</li>
+                <li>Watching Tech Youtube Channels</li>
+                <li>Books Reading</li>
+            </ul>
+        </section>
+       <section>
+            <h2>Contant Me</h2>
+            <form action="#">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="callbackdate">When to call back:</label>
+                    <input type="datetime-local" id="callbackdate" name="callbackdate">
+                </div>
+                <div class="form-group">
+                    <label for="contact-number">Contact Number:</label>
+                    <input type="text" id="contact-number" name="contact-number">
+                </div>
+                <div class="form-group">
+                    <label for="description">Description:</label>
+                    <textarea id="description" name="description" rows="4" ></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="linkedin">LinkedIn Profile:</label>
+                    <input type="url" id="linkedin" name="linkedin" >
+                </div>
+                <div class="form-group">
+                    <label for="submit">Submit:</label>
+                    <input type="submit" id="submit" name="submit">
+                </div>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
